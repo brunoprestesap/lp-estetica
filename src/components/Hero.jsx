@@ -28,7 +28,7 @@ const Hero = () => {
             </button>
           </div>
 
-          <div className="absolute bottom-10 right-24 md:bottom-5 md:right-5 flex flex-col md:flex-row self-center items-center text-slate-200 gap-5">
+          <div className="absolute bottom-10 right-20 md:bottom-5 md:right-5 flex flex-col md:flex-row self-center items-center text-slate-200 gap-5">
             <div className="text-center">
               <h2 className="font-bold text-base">Zona de serviço</h2>
               <h2 className="text-base text-orange-700 font-bold">
