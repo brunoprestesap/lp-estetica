@@ -28,20 +28,22 @@ const Hero = () => {
             </button>
           </div>
 
-            <div className="flex flex-col md:flex-row self-center items-center text-slate-200 gap-5 py-12 md:p-3">
-                <div className="text-center">
-                    <h2 className="font-bold text-base">Zona de serviço</h2>
-                    <h2 className="text-base text-orange-700 font-bold">Macapá/Santana - Amapá</h2>
-                </div>
-                <hr className="md:hidden border-2 w-full m-3 border-orange-600"/>
-                <div className="text-center md:border-orange-600 md:border-l-2 md:px-5">
-                    <h2 className="text-base">bgdetailer@bgdetailer.com.br</h2>
-                    <h2 className="text-base">Whatsapp: (96)98102-3704</h2>
-                </div>
+          <div className="absolute bottom-10 right-24 md:bottom-5 md:right-5 flex flex-col md:flex-row self-center items-center text-slate-200 gap-5">
+            <div className="text-center">
+              <h2 className="font-bold text-base">Zona de serviço</h2>
+              <h2 className="text-base text-orange-700 font-bold">
+                Macapá/Santana - Amapá
+              </h2>
+            </div>
+            <hr className="md:hidden border-2 w-full m-3 border-orange-600" />
+            <div className="text-center md:border-orange-600 md:border-l-2 md:px-5">
+              <h2 className="text-base">bgdetailer@bgdetailer.com.br</h2>
+              <h2 className="text-base">Whatsapp: (96)98102-3704</h2>
             </div>
           </div>
         </div>
       </div>
+    </div>
   );
 };
 
